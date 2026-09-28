@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto - MyM Tampico Miramar</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('I5TjPzbfFGX2AY0Of')
+</script>
+</head>
+<body>
+	<section class = "home">
+		<div class="in-flex">
+			<div class="in-flex">
+				<img id="logo" src="img/logotexto.png" class="logo-letras">
+			</div>
+			<div class="in-flex">
+				<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="catalogo.html">Catalogo</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="contacto.html">Contacto</a></li>		
+				</ul>
+				</nav>
+			</div>
+			
+	</section>
+	<div class="wrap2 contacto"></div>
+
+	<div class="wrapcontacto">
+		<form class="formulario-contacto" action="https://formsubmit.co/smokewithelias2008@gmail.com" method="POST" id="form">
+        <input type="text" name="nombreCliente" placeholder="Nombre" required id="from_name">
+        <input type="email" name="correoCliente" placeholder="Correo electrónico" required id="email_id">
+        <textarea name="mensajeCliente" placeholder="Escribe tu mensaje..." rows="8" required id="message"></textarea>
+        <button type="submit" id="button">Enviar</button>
+    </form>
+    <script src="app.js"></script>
+	</div>
+	<div class="wrapubi">
+				<div class="ubitexto">
+					<h1>UBICACIÓN</h1>
+				<p>Blvd. A. López Mateos 200-Local 6<br>Loma del Gallo, C.P. 89460<br>Cd Madero, Tamps.<br>Teléfono: 833 215 0147<br><br></p>
+
+				<div class="contenedor-mapa">
+    				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d388.1377483286767!2d-97.8529387363641!3d22.25489507859762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7f9e9a886aaab%3A0xcb0a6fde20306733!2sBlvd.%20Licenciado%20Adolfo%20L%C3%B3pez%20Mateos%20200%20SUR-Loc%206%2C%20Loma%20del%20Gallo%2C%2089460%20Cd%20Madero%2C%20Tamps.!5e0!3m2!1ses-419!2smx!4v1784047610409!5m2!1ses-419!2smx"
+    				style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				</div>
+			</div>
+
+<footer>
+	<p>Contacto:<br>Teléfono: 833 215 0147<br><br>Correo:<br> yolanda.cruz@mymtampicomiramar.com.mx<br>
+	santa.cisneros@mymtampicomiramar.com.mx</p>
+	<img id="logo" src="img/logoblanco2.png">
+	<p>Blvd. A. López Mateos 200-Local 6<br>Loma del Gallo, C.P. 89460 <br>Cd Madero, Tamps.</p>
+
+</footer>
+</body>
+</html>
